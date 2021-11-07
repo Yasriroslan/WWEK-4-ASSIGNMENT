@@ -1,0 +1,43 @@
+package firstAssignment;
+import java.util.Scanner;
+public class SectionB {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanMe = new Scanner(System.in);
+		
+		System.out.println("Enter yearly interest rate"); //interest yang dikenakan 3.5
+		double interest= scanMe.nextDouble();
+		
+		System.out.println("Enter number of years"); //tempoh untuk 5 tahun 
+		double years= scanMe.nextDouble();
+		
+		System.out.println("Enter the loan amount"); //loan yang dia dapat 3000
+		double loan= scanMe.nextDouble();
+		
+		double z= loan*interest/100; 
+		double y= (years*12)*3.5/100*loan;
+		
+		System.out.println("The payment is " + z);
+		System.out.println("The total is " +y);
+		
+		
+		
+		
+		
+		
+	}
+
+}
+
+
+output
+
+Enter yearly interest rate
+3.5
+Enter number of years
+5
+Enter the loan amount
+3000
+The payment is 105.0
+The total is 6300.0
