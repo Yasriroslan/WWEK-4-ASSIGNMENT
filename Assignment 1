@@ -1,0 +1,66 @@
+package firstAssignment;
+import java.util.Scanner;
+public class SectionA {
+
+	public static void main(String[] args) {
+		
+	 Scanner scanMe = new Scanner (System.in);
+       
+		double totalprice, discount, pay;
+		discount = 96;
+	
+		System.out.println("Enter the number of items : ");
+		int item = scanMe.nextInt();
+       
+        System.out.println("Enter price of first item : ");
+        int num1 = scanMe.nextInt();
+        
+        System.out.println("Enter quantity of first item : ");
+        int quantity1 = scanMe.nextInt();
+
+        System.out.println("Enter price of second item : ");
+        int num2 = scanMe.nextInt();
+        
+        System.out.println("Enter quantity of second item : ");
+        int quantity2 = scanMe.nextInt();
+        
+        System.out.println("Enter price of third item : ");
+        int num3 = scanMe.nextInt();
+        
+        System.out.println("Enter quantity of third item : ");
+        int quantity3 = scanMe.nextInt();
+        
+        totalprice = (quantity1 * num1) + (quantity2 * num2) + (quantity3 * num3);
+        
+        pay = (totalprice - discount);
+        
+        System.out.println("Total price       : " + totalprice);
+        System.out.println("Discount received : " + discount);
+        System.out.println("Price to be paid  : " + pay);
+     
+	}
+
+}
+
+
+
+
+output
+
+Enter the number of items : 
+3
+Enter price of first item : 
+100
+Enter quantity of first item : 
+2
+Enter price of second item : 
+200
+Enter quantity of second item : 
+2
+Enter price of third item : 
+2
+Enter quantity of third item : 
+3
+Total price       : 606.0
+Discount received : 96.0
+Price to be paid  : 510.0
