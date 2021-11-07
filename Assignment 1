@@ -50,17 +50,18 @@ output
 Enter the number of items : 
 3
 Enter price of first item : 
-100
+200
 Enter quantity of first item : 
 2
 Enter price of second item : 
-200
+1
 Enter quantity of second item : 
-2
+70
 Enter price of third item : 
-2
+1
 Enter quantity of third item : 
-3
-Total price       : 606.0
+50
+Total price       : 520.0
 Discount received : 96.0
-Price to be paid  : 510.0
+Price to be paid  : 424.0
+
